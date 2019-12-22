@@ -21,7 +21,12 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Notes
+## commands
+1. How to see exclusive routes
+```sh
+$rails routes | grep portfolio
+```
 
 ## Adding porfolios items via rails generator
 1. Generate a resource for portfolio items then migrate
